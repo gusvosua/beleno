@@ -1,0 +1,206 @@
+/*
+Amarillo background:fffc00
+Amarillo background Tabla:FFF2A7
+Amarillo Estrellas: ffc400
+Rojo:#bf1e2e
+ */
+
+html{
+  font-family: 'Nunito', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:#BF1E2E;
+}
+
+a:hover{
+  opacity: 0.6;
+}
+
+.title{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.container{
+background: ##fffc00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fffc00, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffc00, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container-boca{
+background: ##fffc00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, ##fffc00, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffc00, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.content{
+  max-width: 960px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 4px;
+  position: relative;
+  padding: 1.8em;
+}
+
+.content-boca{
+  max-width: 960px;
+  max-height: 400px;
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 4px;
+  position: relative;
+  padding: 1.8em;
+}
+
+.actions{
+  position: absolute;
+  top:1em;
+  right:1em;
+}
+
+.actions-boca{
+  position: absolute;
+  top:1em;
+  right:1em;
+}
+
+.close{
+  height: 40px;
+  width: 40px;
+  color:white;
+  border-radius:50%;
+  background-color: #BF1E2E;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-weight: 300px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-boca{
+  height: 40px;
+  width: 40px;
+  color:white;
+  border-radius:50%;
+  background-color: #BF1E2E;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-weight: 300px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph{
+  line-height: 1.8em;
+  font-weight: 300;
+}
+
+.paragraph-bocadillo{
+  line-height: 1.8em;
+  font-weight: 300;
+}
+
+.fa-star {
+  color:#ffc400;
+}
+
+.table{
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table td, .table th{
+  padding: 1em;
+  text-align: left;
+}
+
+.table tr:nth-child(even){background-color: #FFF2A7;}
+
+/*Este es el borde que divide el titulo del contenido*/
+.title-item{
+/*border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #C6426E;*/
+  font-size: 2em;
+  border-bottom: solid 2px #BF1E2E;
+  padding-bottom: 1em;
+}
+
+.titulo-boca{
+/*border-bottom-style: solid;
+  border-width: 2px;
+  border-color: #C6426E;*/
+  font-size: 2em;
+  border-bottom: solid 2px #BF1E2E;
+  padding-bottom: 1em;
+}
+
+.deditosbocadillo{
+  float: left;
+  margin-right: 1em;
+  height: 250px;
+}
+
+.deditosqueso{
+  float: left;
+  margin-right: 1em;
+  height: 250px;
+}
+
+.position{
+  background-color: #BF1E2E;
+  color:white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 0.5em;
+}
+/*Este es el botón número 2*/
+.position-bocadillo{
+  background-color: #BF1E2E;
+  color:white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 0.5em;
+}
+
+.titulo-bocadillo{
+  font-weight: bold;
+  color:#BF1E2E;
+  font-size: 1.2em;
+}
+.titulo-picaqueso{
+  font-weight: bold;
+  color:#BF1E2E;
+  font-size: 1.2em;
+}
+/*Aqui colocamos en negrita la dirección para que resalte
+.address{
+  font-weight: bold;
+  color:#f05053;
+  font-size: 1.2em;
+}
+*/
+
+
+
+/*Este es el botón número 1*/
